@@ -4,10 +4,18 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Person person1 = new Person("Maya", 28, 200);
-        System.out.println("Hello, " + person1.name);
-       // person1.sayHi("Maya"); {
+        int result = Main.myMethod();
 
+
+    }
+
+    static int myMethod() {
+        String nine = "9";
+        int i;
+        i = Integer.parseInt(nine);
+
+
+        return i;
     }
 
 }
