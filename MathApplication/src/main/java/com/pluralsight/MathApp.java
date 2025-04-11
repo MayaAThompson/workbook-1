@@ -84,7 +84,7 @@ public class MathApp {
         randomFrac = Math.random();
 
         //output
-        System.out.println("Here's a random number from 0 to 1: " + randomFrac);
+        System.out.printf("Here's a random number from 0 to 1: %.3f", randomFrac);
 
 
     }
